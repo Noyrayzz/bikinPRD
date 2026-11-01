@@ -1,0 +1,5 @@
+# Hoisted linker keeps node_modules flat, which Next 16's resolver likes on
+# Windows. No storeDir on purpose: each machine uses pnpm's default store.
+nodeLinker: hoisted
+allowBuilds:
+  unrs-resolver: true

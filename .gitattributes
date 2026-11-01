@@ -1,0 +1,4 @@
+# Keep the repo LF so Windows and macOS clones don't churn on line endings.
+* text=auto eol=lf
+*.png binary
+*.ico binary
